@@ -1,7 +1,7 @@
-A utility for setting all new windows to a dark theme in Windows 11.
+A utility that forces all newly created windows in Windows 11 to use the dark theme.
 
-This only works for windows using the default theme. 
-Therefore, the program will be compatible with, for example, Steam or Telegram windows.
+It works only with windows that use the default system theme.
+As a result, the program is compatible with applications such as Steam and Telegram.
 
-After compilation, you can add this utility to startup. 
-However, for applications with administrator rights, you'll need to duplicate the startup sequence using, for example, taskschd.msc.
+After building the project, the utility can be added to startup.
+However, for applications running with administrative privileges, the startup process must be duplicated—for example, by using **Task Scheduler** (`taskschd.msc`).
